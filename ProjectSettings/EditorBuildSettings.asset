@@ -30,12 +30,12 @@ EditorBuildSettings:
     path: Assets/Unused/_Labs/07-Prototype4/07-Prototype4.unity
     guid: a0d2a73e11b0743f4abfb05dbe92329b
   - enabled: 1
-    path: Assets/EndScene.unity
-    guid: 06356392436c2f14d84b2294ab6e2e1b
+    path: Assets/Interior.unity
+    guid: d1f4cdd702de2f048ad69e8bd45737b0
   - enabled: 1
     path: Assets/meowmeow.unity
     guid: dc07497ad1d5195439c151bda216516d
   - enabled: 1
-    path: Assets/Interior.unity
-    guid: d1f4cdd702de2f048ad69e8bd45737b0
+    path: Assets/EndScene.unity
+    guid: 06356392436c2f14d84b2294ab6e2e1b
   m_configObjects: {}
