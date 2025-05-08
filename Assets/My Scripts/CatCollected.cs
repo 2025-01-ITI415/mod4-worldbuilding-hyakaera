@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class CatCollected : MonoBehaviour
 {
       private AudioSource audioSource;

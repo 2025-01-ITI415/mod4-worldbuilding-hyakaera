@@ -11,10 +11,19 @@ public class CatCollector : MonoBehaviour
     private int catCount = 0;
 
     private void Awake()
+{
+    if (Instance == null)
     {
         Instance = this;
-        UpdateUI();
+        DontDestroyOnLoad(gameObject); // Keeps it alive across scenes
     }
+    else
+    {
+        Destroy(gameObject);
+    }
+
+    UpdateUI();
+}
 
     public void AddCat()
     {
